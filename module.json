@@ -3,7 +3,7 @@
    "title": "Balrog Taco Automation",   
    "description": "Sharing Balrog Tacos around the world",   
    "author": "BalrogTaco",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "compatibility": {
         "minimum": 10,
         "verified": 10,
@@ -37,7 +37,16 @@
     "scripts": [
         "init.js"
     ],
-    "url": "https://github.com/jbowensii/More-Automated-Spells-Items-and-Feats.git",
-    "manifest": "https://github.com/jbowensii/More-Automated-Spells-Items-and-Feats/releases/latest/download/module.json",
-    "download": "https://github.com/jbowensii/More-Automated-Spells-Items-and-Feats/releases/latest/download/module.zip"
+    "packs": [
+        {
+            "name": "Balrog Taco Automation Items",
+            "label": "Balrog Taco Automation Items",
+            "path": "packs/balrog-taco-automation-items.db",
+            "entity": "Item",
+            "module": "Balrog Taco Automation"
+        }
+    ],
+    "url": "https://github.com/BalrogTaco/balrogtacoautomation",
+    "manifest": "https://github.com/BalrogTaco/balrogtacoautomation/releases/latest/download/module.json",
+    "download": "https://github.com/BalrogTaco/balrogtacoautomation/releases/latest/download/module.zip"
  }
